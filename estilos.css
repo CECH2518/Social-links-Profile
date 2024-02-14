@@ -1,0 +1,75 @@
+body {
+	background: #151514;
+  	display: flex;
+  	justify-content: center; /* Centra horizontalmente */
+  	align-items: center; /* Centra verticalmente */
+  	height: 105vh; /* Hace que el body ocupe toda la altura del viewport */
+  	margin: 0; /* Elimina el margen predeterminado del body */
+}
+
+main {
+	width: 30%;
+  	background-color: #1E1E1F; /* Solo para visualización */
+  	padding: 30px; /* Añade un poco de espacio alrededor del contenido */
+  	overflow: hidden; /* Evita que el contenido se salga del main */
+  	margin: 10px; /* Añade margen exterior al main */
+  	align-items: center;
+  	display: flex; /* Utiliza flexbox para centrar vertical y horizontalmente */
+  	flex-direction: column; /* Alinea el contenido verticalmente */
+  	justify-content: center; /* Centra verticalmente */
+  	text-align: center; /* Centra el texto horizontalmente */
+}
+h1{
+	color: white;
+}
+h4{
+	color:#C4F92B ;
+}
+p{
+	color: white;
+}
+
+.div {
+	width: 100%;
+	padding: 5px; /* Utiliza flexbox para alinear los botones horizontalmente */
+	justify-content: center; /* Centra los botones horizontalmente */
+}
+
+img {
+	max-width: 50%; /* Ajusta el tamaño máximo de la imagen al ancho del main */
+  	height: auto; /* Mantiene la proporción de aspecto de la imagen */
+  	border-radius: 100px;
+}
+
+button {
+	width: 90%;
+	margin: 10px 5px; /* Agrega margen a los lados del botón */
+	padding: 10px 20px;
+	font-weight: bold;
+	background-color: #333333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s; /* Transición suave para el efecto hover */
+}
+
+/* Estilos para el efecto hover */
+button:hover {
+	background-color: #C4F92B; /* Cambia el color de fondo al pasar el cursor */
+	color: #151514; /* Cambia el color del texto al pasar el cursor */
+}
+
+footer{
+	background: #333333 ;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+.a {
+  color: red;
+}
